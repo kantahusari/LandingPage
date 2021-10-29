@@ -1,0 +1,57 @@
+.userprofileDiv {
+  border: 2px solid #444;
+  background-color: rgb(195, 194, 194);
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.profile {
+  text-align: center;
+}
+
+/*------------------------*/
+#customers {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+#customers td {
+  border: 2px solid #ddd;
+  padding: 10px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+/*Modals*/
+.profile-modal-button {
+  margin-top: 290px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.Scroll_Pane {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 250px;
+}

@@ -1,0 +1,137 @@
+.dashboardBody {
+  width: auto;
+  height: auto;
+  background-color: rgb(195, 194, 194);
+  margin: 40px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+/* 
+.wrapper {
+  display: grid;
+  grid-gap: 30px;
+  color: #444;
+  text-align: center;
+  border: 1px solid black;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+}
+
+.box {
+  background-color: rgb(102, 104, 109);
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 180%;
+  width: 280px;
+  height: 280px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.square {
+  background-color: rgb(185, 189, 200);
+  color: #fff;
+  border-radius: 8px;
+  font-size: 180%;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+
+/* grid styles ------------------------------------ */
+/* grid styles ------------------------------------ */
+@media (min-width: 600px) {
+  main {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: 80px 1fr; */
+    /* grid-template-columns: 200px repeat(auto-fill, 100px) 300px; */
+    /* grid-template-columns: none; */
+
+    grid-gap: 40px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+  }
+  .A {
+    grid-column: auto / span 8;
+    grid-row: auto / span 8;
+  }
+  .A2 {
+    grid-column: auto / span 40;
+    grid-row: auto / span auto;
+  }
+  .B {
+    grid-column: auto / span 8;
+    grid-row: auto / span 8;
+  }
+  .C {
+    grid-column: auto / span 8;
+    grid-row: auto / span 8;
+  }
+  .D {
+    grid-column: auto / span 8;
+    grid-row: auto / span 8;
+  }
+  .E {
+    grid-column: auto / span 8;
+    grid-row: auto / span 8;
+  }
+}
+
+td,
+th {
+  width: 4rem;
+  height: 2rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+tr {
+  width: 4rem;
+  height: 2rem;
+  text-align: center;
+  border: 1px solid rgb(58, 56, 56);
+  padding: 8px;
+  color: black;
+  background-color: white;
+}
+th {
+  background: rgb(49, 55, 65);
+  color: white;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #555353;
+}
+tr:hover {
+  background-color: #ddd;
+}
+
+.dashcontainer {
+  text-align: center;
+}
+.dashrow {
+  width: auto;
+}
+.dashrowTable {
+  width: auto;
+  border-radius: 0px;
+}
+.dashcolumn {
+  width: auto;
+  height: auto;
+}
+.dashcolumnTable {
+  width: auto;
+  height: auto;
+  border-radius: 0px;
+}
